@@ -96,7 +96,7 @@ class App extends React.Component {
           </div>
         </Link>
         <Divider />
-        <List
+        {/* <List
           subheader={<ListSubheader component="div">Nested List Items</ListSubheader>}>
           <Link to="/" style={{ textDecoration: 'none' }}>
             <ListItem button>
@@ -104,8 +104,13 @@ class App extends React.Component {
             </ListItem>
           </Link>
         </List>
-        <Divider />
+        <Divider /> */}
         <List>
+          <Link to="/" style={{ textDecoration: 'none' }}>
+            <ListItem button>
+              <ListItemText primary="Home"/>
+            </ListItem>
+          </Link>
           <Link to="/resume" style={{ textDecoration: 'none' }}>
             <ListItem button>
               <ListItemText primary="Resume"/>

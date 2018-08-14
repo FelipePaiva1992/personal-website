@@ -5,6 +5,7 @@ import WorkIcon from '@material-ui/icons/Work';
 import List from '@material-ui/core/List';
 import ListItem from '@material-ui/core/ListItem';
 import ListItemText from '@material-ui/core/ListItemText';
+import Typography from '@material-ui/core/Typography';
 
 import './index.css';
 
@@ -13,171 +14,122 @@ const Resume = () => {
   return (
     <main>
       <section>
-      <h2>Senior Software Engineer, UI/UX Designer</h2>
+        <Typography variant="display1" gutterBottom style={{ color: '#000000'}}>
+          Head of Mobile Development
+        </Typography>
 
-      <p>
-        I have a passion for software. I enjoy creating tools that make life easier for people. I take pride in what I create and I strive to exceed expectations.
-      </p>
+        <p>
+          <Typography variant="body1" gutterBottom>
+            I have a passion for software. I enjoy creating tools that make life easier for people. I take pride in what I create and I strive to exceed expectations.
+          </Typography>
+        </p>
 
-      <p>
-        I most commonly work with client applications (desktop and mobile) although I am comfortable with backend technologies as well. The languages and technologies I most frequently use include JavaScript and Java. I am also very comfortable with version control systems such as GIT as well as project tracking tools such as Jira.
-      </p>
+        <p>
+          <Typography variant="body1" gutterBottom style={{ paddingBottom: '1em' }}>
+            I most commonly work with mobile applications although I am comfortable with backend technologies as well. The languages and technologies I most frequently use include JavaScript ith Node.js. I am also very comfortable with version control systems such as GIT as well as project tracking tools such as Jira.
+          </Typography>
+        </p>
     </section>
 
     <section>
       <table class="skills">
         <tbody>
           <tr>
-            <td>
-              Skills
+            <td style={{ marginTop: 0, verticalAlign: 'text-top', paddingRight: 100 }}>
+              <Typography variant="title" gutterBottom>
+                Skills
+              </Typography>
             </td>
             <td>
-              <header>Leadership</header>
-              <p>
-                Strong leadership skills; several years experience leading teams of 5-15 people.
-              </p>
-            </td>
-            <td>
-              <header>Software</header>
-              <p>
-                15 years software experience developing web, mobile, and desktop applications.
-              </p>
-            </td>
-            <td>
-              <header>UI/UX</header>
-              <p>
-                Graphic design major; several years experience in web/digital design.
-              </p>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              Technologies
-            </td>
-            <td>
-              <header>Languages</header>
-              <p>
-                JavaScript, Ruby, Rails, ActionScript, PHP, HTML, CSS, SQL, Java/JSP, C/C++, Objective C
-              </p>
-            </td>
-            <td>
-              <header>Tools</header>
-              <p>
-                GIT, SVN, CVS, Jira, Jazz, Trac, Mantis
-              </p>
-            </td>
-            <td>
-              <header>Other</header>
-              <p>
-                Eclipse, Flash Builder, Flash Pro, Photoshop, MySQL, Apache, Illustrator
-              </p>
-            </td>
-          </tr>
-
-          <tr>
-            <td>
-              Education
-            </td>
-            <td colspan="3">
               <header>
-                James Madison University, Digital Interactive Media
+                <Typography variant="subheading" gutterBottom style={{ fontWeight: 'bold'  }}>
+                  Leadership
+                </Typography>
               </header>
               <p>
-                Graduated with honors (Magna cum laude) from the School of Media Arts &amp; Design. Received highest department award, Academic Excellence in Digital Media. Cumulative GPA of 3.704.
+                <Typography variant="body1" gutterBottom>
+                  Strong leadership skills; several years experience leading teams of 5-15 people.
+                </Typography>
+              </p>
+            </td>
+            <td style={{ paddingBottom: '1em' }}>
+              <header>
+                <Typography variant="subheading" gutterBottom style={{ fontWeight: 'bold'  }}>
+                  Software
+                </Typography>
+              </header>
+              <p>
+                <Typography variant="body1" gutterBottom>
+                  15 years software experience developing web, mobile, and desktop applications.
+                </Typography>
               </p>
             </td>
           </tr>
-        </tbody>
-      </table>
-    </section>
+          <tr>
+            <td style={{ marginTop: 0, verticalAlign: 'text-top', paddingRight: 100 }}>
+              <Typography variant="title" gutterBottom>
+                Technologies
+              </Typography>
+            </td>
+            <td style={{ paddingBottom: '1em' }}>
+              <header>
+                <Typography variant="subheading" gutterBottom style={{ fontWeight: 'bold'  }}>
+                  Languages
+                </Typography>
+              </header>
+              <p>
+                <Typography variant="body1" gutterBottom>
+                  JavaScript, Java, HTML, CSS
+                </Typography>
+              </p>
+            </td>
+            <td>
+              <header>
+                <Typography variant="subheading" gutterBottom style={{ fontWeight: 'bold'  }}>
+                  Tools
+                </Typography>
+              </header>
+              <p>
+                <Typography variant="body1" gutterBottom>
+                  GIT, Jira
+                </Typography>
+              </p>
+            </td>
+          </tr>
 
-    <section>
-      <h2>Open Source</h2>
-
-      <table>
-        <tbody>
           <tr>
-            <td>React Presents</td>
-            <td>2016+</td>
-            <td>React slideshow framework;
-              <a href="https://bvaughn.github.io/react-presents/">bvaughn.github.io/react-presents</a>
+            <td style={{ marginTop: 0, verticalAlign: 'text-top', paddingRight: 100 }}>
+              <Typography variant="title" gutterBottom>
+                Education
+              </Typography>
+            </td>
+            <td colspan="2" style={{ paddingBottom: '1em' }}>
+              <header>
+                <Typography variant="subheading" gutterBottom style={{ fontWeight: 'bold'  }}>
+                  Fiap, MBA of Java with SOA and IOT
+                </Typography>
+              </header>
+              <p>
+                <Typography variant="body1" gutterBottom>
+                  I was awarded by my residential automation startup created for the completion of the MBA course
+                </Typography>
+              </p>
             </td>
           </tr>
           <tr>
-            <td>React Virtualized Select</td>
-            <td>2016+</td>
-            <td>HOC that uses react-virtualized and react-select to display large lists of options in a drop-down;
-              <a href="https://bvaughn.github.io/react-virtualized-select/">bvaughn.github.io/react-virtualized-select</a>
+            <td style={{ marginTop: 0, fontWeight: 'bold', verticalAlign: 'text-top' }}>
             </td>
-          </tr>
-          <tr>
-            <td>React Virtualized</td>
-            <td>2015+</td>
-            <td>React components for efficiently rendering large, scrollable lists and tabular data;
-              <a href="https://bvaughn.github.io/react-virtualized/">bvaughn.github.io/react-virtualized</a>
-            </td>
-          </tr>
-          <tr>
-            <td>Redux Devtools Filterable Log Monitor</td>
-            <td>2015+</td>
-            <td>Filterable tree view monitor for Redux DevTools;
-              <a href="https://http://bvaughn.github.io/redux-devtools-filterable-log-monitor/">bvaughn.github.io/redux-devtools-filterable-log-monitor</a>
-            </td>
-          </tr>
-          <tr>
-            <td>Redux Search</td>
-            <td>2015+</td>
-            <td>Redux bindings for client-side search;
-              <a href="https://http://https://treasure-data.github.io/redux-search/">treasure-data.github.io/redux-search</a>
-            </td>
-          </tr>
-          <tr>
-            <td>Debounce Decorator</td>
-            <td>2015+</td>
-            <td>Decorator for debouncing class methods;
-              <a href="https://github.com/bvaughn/debounce-decorator">github.com/bvaughn/debounce-decorator</a>
-            </td>
-          </tr>
-          <tr>
-            <td>JS Search</td>
-            <td>2015+</td>
-            <td>Efficient, client-side search library for JavaScript and JSON objects
-              <a href="http://bvaughn.github.io/js-search/">bvaughn.github.io/js-search</a>
-            </td>
-          </tr>
-          <tr>
-            <td>Task Runner</td>
-            <td>2015+</td>
-            <td>Async utilities for JavaScript application development with a focus on interruptibility and error-handling;
-              <a href="https://http://taskrunnerjs.com">taskrunnerjs.com</a>
-            </td>
-          </tr>
-          <tr>
-            <td>Angular formFor</td>
-            <td>2014+</td>
-            <td>Set of Angular directives to simplify creating and validating HTML forms;
-              <a href="https://bvaughn.github.io/angular-form-for/">bvaughn.github.io/angular-form-for/</a>
-            </td>
-          </tr>
-          <tr>
-            <td>Task Manager</td>
-            <td>2012 - 2013</td>
-            <td>ActionScript library designed to simplify the implementation of asynchronous processes;
-              <a href="https://github.com/bvaughn/TaskManager">github.com/bvaughn/TaskManager</a>
-            </td>
-          </tr>
-          <tr>
-            <td>Reflex Unit</td>
-            <td>2008</td>
-            <td>Automated testing framework for ActionScript 3;
-              <a href="http://code.google.com/p/reflex-unit">code.google.com/p/reflex-unit</a>
-            </td>
-          </tr>
-          <tr>
-            <td>Nennius</td>
-            <td>2005</td>
-            <td>PHP application engine;
-              <a href="http://nennius.sourceforge.net">nennius.sourceforge.net</a>
+            <td colspan="2" style={{ paddingBottom: '1em' }}>
+              <header>
+                <Typography variant="subheading" gutterBottom style={{ fontWeight: 'bold'  }}>
+                  Udacity, Nanodegree of React and React Native
+                </Typography>
+              </header>
+              <p>
+                <Typography variant="body1" gutterBottom>
+                  I graduated on the course, taking advantage of all the knowledge I could take in the nanodegree
+                </Typography>
+              </p>
             </td>
           </tr>
         </tbody>

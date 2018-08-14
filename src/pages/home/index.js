@@ -14,7 +14,7 @@ const Home = () => {
           <Avatar>
             <ImageIcon />
           </Avatar>
-          <ListItemText primary="I live in São Paulo, Brazil" secondary="The rain city" />
+          <ListItemText primary="I live in São Paulo, Brazil" secondary="As the biggest city in the Americas" />
         </ListItem>
         <ListItem>
           <Avatar>
