@@ -6,25 +6,31 @@ import List from '@material-ui/core/List';
 import ListItem from '@material-ui/core/ListItem';
 import ListItemText from '@material-ui/core/ListItemText';
 
-const Home = () => {
+const Projects = () => {
   return (
     <div>
       <List>
+        <ListItem button>
+          <Avatar>
+            <ImageIcon />
+          </Avatar>
+          <ListItemText primary="Porto Faz +" secondary="Porto Seguro's service order opening application" />
+        </ListItem>
         <ListItem>
           <Avatar>
             <ImageIcon />
           </Avatar>
-          <ListItemText primary="I live in São Paulo, Brazil" secondary="As the biggest city in the Americas" />
+          <ListItemText primary="Laudo Digital" secondary="Application for issuing digital reports" />
         </ListItem>
         <ListItem>
           <Avatar>
-            <WorkIcon />
+            <ImageIcon />
           </Avatar>
-          <ListItemText primary="I work at Pixter" secondary="Like Head of Mobile Development" />
+          <ListItemText primary="Porto Faz Agora" secondary="Routing application with machine learning" />
         </ListItem>
       </List>
     </div>
   );
 }
 
-export default Home;
+export default Projects;

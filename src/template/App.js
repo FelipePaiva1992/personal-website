@@ -4,12 +4,12 @@ import { withStyles } from '@material-ui/core/styles';
 import Drawer from '@material-ui/core/Drawer';
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
-import List from '@material-ui/core/List';
 import Typography from '@material-ui/core/Typography';
 import IconButton from '@material-ui/core/IconButton';
 import Hidden from '@material-ui/core/Hidden';
 import Divider from '@material-ui/core/Divider';
 import MenuIcon from '@material-ui/icons/Menu';
+import List from '@material-ui/core/List';
 import ListItem from '@material-ui/core/ListItem';
 import ListItemText from '@material-ui/core/ListItemText';
 import Avatar from '@material-ui/core/Avatar';
@@ -26,8 +26,8 @@ import ListSubheader from '@material-ui/core/ListSubheader';
 import Button from '@material-ui/core/Button';
 
 import ImageAvatar from '../components/ImageAvatar';
-import Home from '../pages/home';
-import Resume from '../pages/resume';
+import Resume from '../components/resume'
+import Projects from '../pages/projects'
 
 const drawerWidth = 250;
 
@@ -96,24 +96,10 @@ class App extends React.Component {
           </div>
         </Link>
         <Divider />
-        {/* <List
-          subheader={<ListSubheader component="div">Nested List Items</ListSubheader>}>
-          <Link to="/" style={{ textDecoration: 'none' }}>
-            <ListItem button>
-              <ListItemText primary="I live in São Paulo, Brazil"/>
-            </ListItem>
-          </Link>
-        </List>
-        <Divider /> */}
         <List>
-          <Link to="/" style={{ textDecoration: 'none' }}>
+          <Link to="/projects" style={{ textDecoration: 'none' }}>
             <ListItem button>
-              <ListItemText primary="Home"/>
-            </ListItem>
-          </Link>
-          <Link to="/resume" style={{ textDecoration: 'none' }}>
-            <ListItem button>
-              <ListItemText primary="Resume"/>
+              <ListItemText primary="Projects"/>
             </ListItem>
           </Link>
         </List>
@@ -166,8 +152,8 @@ class App extends React.Component {
         </Hidden>
         <main className={classes.content} style={{overflowX : 'auto'}}>
           <div className={classes.toolbar} />
-          <Route exact="exact" path="/" component={Home}/>
-          <Route path="/resume" component={Resume}/>
+          <Route exact="exact" path="/" component={Resume}/>
+          <Route path="/projects" component={Projects}/>
         </main>
       </div>
     );

@@ -30,9 +30,9 @@ function ImageAvatars(props) {
         src="./assets/img/eu.jpg"
         className={classNames(classes.avatar, classes.bigAvatar)}
       />
-      <Typography variant="subheading" gutterBottom>
+      {/* <Typography variant="subheading" gutterBottom>
         Felipe de Souza Paiva
-      </Typography>
+      </Typography> */}
     </div>
   );
 }

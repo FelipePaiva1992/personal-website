@@ -9,8 +9,8 @@ import 'typeface-roboto';
 
 ReactDOM.render(
   <Router>
-    <Construction/>
-    {/* <App/> */}
+    {/* <Construction/> */}
+    <App/>
   </Router>,
   document.getElementById('root'));
 registerServiceWorker();

@@ -1,0 +1,144 @@
+{
+  "basics": {
+    "name": "Felipe Paiva",
+    "label": "Head of Mobile Development",
+    "picture": "",
+    "email": "spaiva.felipe@gmail.com",
+    "phone": "+55 (11) 96759-9900",
+    "website": "http://felipesouzapaiva.com.br",
+    "summary": "I have a passion for software. I enjoy creating tools that make life easier for people. I take pride in what I create and I strive to exceed expectations.",
+    "summaryDetail": "I most commonly work with mobile applications although I am comfortable with backend technologies as well. The languages and technologies I most frequently use include JavaScript with Node.js. I am also very comfortable with version control systems such as GIT as well as project tracking tools such as Jira.",
+    "location": {
+      "address": "Rua Cipriano Barata, 201",
+      "postalCode": "04205-000",
+      "city": "São Paulo",
+      "countryCode": "BR",
+      "region": "São Paulo"
+    },
+    "profiles": [{
+      "network": "Linkedin",
+      "username": "felipespaiva",
+      "url": "https://www.linkedin.com/in/felipespaiva/"
+    },
+    {
+      "network": "Github",
+      "username": "FelipePaiva1992",
+      "url": "https://github.com/FelipePaiva1992"
+    }]
+  },
+  "work": [{
+    "company": "Pixter",
+    "position": "Head of Mobile Development",
+    "website": "http://pixter.com.br",
+    "startDate": "2017-04-01",
+    "summary": "Acting as a Head of Mobile Development, participating in both planning and execution of our customers solutions.",
+    "highlights": [
+      "Aplicação Porto Faz +",
+      "Aplicação Laudo Digital",
+      "Porto Faz Agora"
+    ]
+  }, {
+    "company": "Unimed",
+    "position": "Java Programmer",
+    "website": "http://centralnacionalunimed.com.br",
+    "startDate": "2014-07-01",
+    "endDate": "2017-04-01",
+    "summary": "Acting as a Head of Mobile Development, participating in both planning and execution of our customers solutions.",
+    "highlights": [
+      "Aplicação Porto Faz +",
+      "Aplicação Laudo Digital",
+      "Porto Faz Agora"
+    ]
+  }, {
+    "company": "Mobilidade Em Campo",
+    "position": "Android Programmer",
+    "website": "http://pixter.com.br",
+    "startDate": "2013-01-01",
+    "endDate": "2014-07-01",
+    "summary": "Acting as a Head of Mobile Development, participating in both planning and execution of our customers solutions.",
+    "highlights": [
+      "Aplicação Porto Faz +",
+      "Aplicação Laudo Digital",
+      "Porto Faz Agora"
+    ]
+  }],
+  "education": [{
+    "institution": "Fiap",
+    "area": "Software Engineering",
+    "studyType": "MBA",
+    "startDate": "2016-08-01",
+    "endDate": "2017-08-01",
+    "courses": [
+      "MBA of Java with SOA and IOT"
+    ]
+  },
+  {
+    "institution": "Udacity Nanodegree",
+    "area": "Software Engineering",
+    "studyType": "Nanodegree",
+    "startDate": "2018-05-01",
+    "endDate": "2018-02-01",
+    "courses": [
+      "React and React Native"
+    ]
+  }],
+  "awards": [{
+    "title": "3° Place in Startup One",
+    "date": "2017-08-01",
+    "awarder": "Fiap",
+    "summary": "There is no spoon."
+  }],
+  "publications": [{
+    "name": "Publication",
+    "publisher": "Company",
+    "releaseDate": "2014-10-01",
+    "website": "http://publication.com",
+    "summary": "Creation of a startup with a focus on IoT for low cost residential automation, with the purpose of simplifying the daily life of people within their residences, bringing comfort and safety."
+  }],
+  "skills": [{
+    "name": "React Native",
+    "level": "Master",
+    "score": 10
+  },{
+    "name": "Android",
+    "level": "Expert",
+    "score": 8
+  },{
+    "name": "React DOM",
+    "level": "Proficient",
+    "score": 7
+  },{
+    "name": "MondoDB",
+    "level": "Expert",
+    "score": 8
+  },{
+    "name": "Java",
+    "level": "Master",
+    "score": 10
+  },{
+    "name": "MySql",
+    "level": "Expert",
+    "score": 8
+  },{
+    "name": "PL/SQL",
+    "level": "Expert",
+    "score": 8
+  },{
+    "name": "Ionic",
+    "level": "Familiar",
+    "score": 5
+  },{
+    "name": "Node.js",
+    "level": "Expert",
+    "score": 8
+  }],
+  "languages": [{
+    "name": "English",
+    "level": "Intermediate"
+  }],
+  "interests": [{
+    "name": "Mobile Development"
+  },{
+    "name": "Back-end Development"
+  }]
+}

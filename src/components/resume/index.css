@@ -1,0 +1,4 @@
+
+table.skills tr td:first-of-type {
+  font-weight: bold;
+}
